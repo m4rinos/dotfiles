@@ -34,9 +34,9 @@
   pr = "!f() { git fetch -fu ${2:-origin} refs/pull/$1/head:pr/$1 && git checkout pr/$1; }; f"
 
 [pager]
-  log = diff-highlight | less
-  show = diff-highlight | less
-  diff = diff-highlight | less
+  #log = diff-highlight | less
+  #show = diff-highlight | less
+  #diff = diff-highlight | less
 
 [color]
   ui = auto
